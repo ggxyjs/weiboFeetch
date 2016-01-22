@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="weiboFetch"
+  id="myeclipse.1419254945176"
+  context-root="/weiboFetch"
+  j2ee-spec="5.0"
+  archive="weiboFetch.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

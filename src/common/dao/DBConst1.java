@@ -1,0 +1,25 @@
+package common.dao;
+
+public class DBConst1 
+{
+    // mysql的驱动类，定义为常量CLASS_NAME
+    public static final String DRIVER_NAME = "com.mysql.jdbc.Driver";
+    // 数据库的主机，定义为常量HOST
+    public static final String HOST = "121.199.38.98";
+    // 数据库的端口，定义为常量PORT
+    public static final String PORT = "3306";
+    // 数据库的名称，定义为常量DATABASE
+    public static final String DATABASE = "comproperty";
+//    public static final String DATABASE = "fidsstest";
+    // 编码类型
+    public static final String CHARSET = "utf-8";
+    // 数据库的连接地址，定义为常量CONNET_URL
+    public static final String CONNET_URL = "jdbc:mysql://" + DBConst1.HOST 
+    			+ ":" + DBConst1.PORT + "/" + DBConst1.DATABASE 
+		    	+ "?useUnicode=true&characterEncoding=" + DBConst1.CHARSET
+		    	+ "&autoReconnect=true";
+    // 数据库的用户名，定义为常量USER_NAME
+    public static final String USERNAME ="xzw";
+    // 数据库的密码，定义为常量PASSWORD
+    public static final String PASSWORD = "Gt771130";
+}

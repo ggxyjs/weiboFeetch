@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  	<servlet>
+		<description>WordCreateServlet</description>
+		<display-name>WordCreateServlet</display-name>
+		<servlet-name>WordCreateServlet</servlet-name>
+		<servlet-class>servlet.WordCreateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WordCreateServlet</servlet-name>
+		<url-pattern>/WordCreateServlet</url-pattern>
+	</servlet-mapping>
+	
+  	<servlet>
+		<description>AddTopicServlet</description>
+		<display-name>AddTopicServlet</display-name>
+		<servlet-name>AddTopicServlet</servlet-name>
+		<servlet-class>servlet.AddTopicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddTopicServlet</servlet-name>
+		<url-pattern>/AddTopicServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>GetTopicServlet</description>
+		<display-name>GetTopicServlet</display-name>
+		<servlet-name>GetTopicServlet</servlet-name>
+		<servlet-class>servlet.GetTopicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTopicServlet</servlet-name>
+		<url-pattern>/GetTopicServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>FetchNewsServlet</description>
+		<display-name>FetchNewsServlet</display-name>
+		<servlet-name>FetchNewsServlet</servlet-name>
+		<servlet-class>servlet.FetchNewsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FetchNewsServlet</servlet-name>
+		<url-pattern>/FetchNewsServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>FetchNewsServlet1</description>
+		<display-name>FetchNewsServlet1</display-name>
+		<servlet-name>FetchNewsServlet1</servlet-name>
+		<servlet-class>servlet.FetchNewsServlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FetchNewsServlet1</servlet-name>
+		<url-pattern>/FetchNewsServlet1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>ShowWordServlet</description>
+		<display-name>ShowWordServlet</display-name>
+		<servlet-name>ShowWordServlet</servlet-name>
+		<servlet-class>servlet.ShowWordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowWordServlet</servlet-name>
+		<url-pattern>/ShowWordServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description>EntryCreateServlet</description>
+		<display-name>EntryCreateServlet</display-name>
+		<servlet-name>EntryCreateServlet</servlet-name>
+		<servlet-class>servlet.EntryCreateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EntryCreateServlet</servlet-name>
+		<url-pattern>/EntryCreateServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>ShowEntryServlet</description>
+		<display-name>ShowEntryServlet</display-name>
+		<servlet-name>ShowEntryServlet</servlet-name>
+		<servlet-class>servlet.ShowEntryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowEntryServlet</servlet-name>
+		<url-pattern>/ShowEntryServlet</url-pattern>
+	</servlet-mapping>	
+	
+		<servlet>
+		<description>ShowEntryServlet1</description>
+		<display-name>ShowEntryServlet1</display-name>
+		<servlet-name>ShowEntryServlet1</servlet-name>
+		<servlet-class>servlet.ShowEntryServlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowEntryServlet1</servlet-name>
+		<url-pattern>/ShowEntryServlet1</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description>EntryEvolveServlet</description>
+		<display-name>EntryEvolveServlet</display-name>
+		<servlet-name>EntryEvolveServlet</servlet-name>
+		<servlet-class>servlet.EntryEvolveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EntryEvolveServlet</servlet-name>
+		<url-pattern>/EntryEvolveServlet</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>
+		<description>FetchTopicNewsServlet</description>
+		<display-name>FetchTopicNewsServlet</display-name>
+		<servlet-name>FetchTopicNewsServlet</servlet-name>
+		<servlet-class>servlet.FetchTopicNewsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FetchTopicNewsServlet</servlet-name>
+		<url-pattern>/FetchTopicNewsServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description>TopicTrackServlet</description>
+		<display-name>TopicTrackServlet</display-name>
+		<servlet-name>TopicTrackServlet</servlet-name>
+		<servlet-class>servlet.TopicTrackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TopicTrackServlet</servlet-name>
+		<url-pattern>/TopicTrackServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description>ShowTrackNewsServlet</description>
+		<display-name>ShowTrackNewsServlet</display-name>
+		<servlet-name>ShowTrackNewsServlet</servlet-name>
+		<servlet-class>servlet.ShowTrackNewsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowTrackNewsServlet</servlet-name>
+		<url-pattern>/ShowTrackNewsServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description>ShowIreNewsServlet</description>
+		<display-name>ShowIreNewsServlet</display-name>
+		<servlet-name>ShowIreNewsServlet</servlet-name>
+		<servlet-class>servlet.ShowIreNewsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowIreNewsServlet</servlet-name>
+		<url-pattern>/ShowIreNewsServlet</url-pattern>
+	</servlet-mapping>	
+  
+</web-app>
